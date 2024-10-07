@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/logo-2.svg">
+</head>
+<body class="bg-darkPurple">
+<!-- Navbar -->
+<nav class="relative mx-auto p-6">
+    <!-- flex-container -->
+    <div class="flex items-center justify-between">
+        <!-- logo -->
+        <div class="pt-2">
+            <img src="img/logo.svg" alt="startup logo">
+        </div>
+ </div>
+
+  </nav>
+  <!-- form section -->
+  <section>
+    <!-- flex container -->
+    <div class="flex flex-col items-center container space-y-0 space-x-0 bg-darkPurple mt-12 mx-auto bg-darkPurple drop-shadow-md w-full md: w-1/2">
+       <h2 class="text-white text-2xl">Create your account</h2>
+       <form action="" id="signupForm" class="flex flex-col items-center">
+        <div class="w-9/12 mt-6">
+            <label for="Matric" class="block text-white text-sm my-2 text-left">Matric Number</label>
+            <input type="text" id="matric" name="matric"  placeholder="Enter your Matric Number" class="w-full rounded p-2 bg-purpleShade text-lightGray drop-shadow-md focus:border border-teal-500 focus:outline-none">
+        </div>
+        <div class="w-9/12 mt-6">
+            <label for="surname" class="block text-white text-sm my-2 text-left">Surname</label>
+            <input type="text" id="surname" name="surname" placeholder="Enter your Surname" class="w-full rounded p-2 bg-purpleShade text-lightGray drop-shadow-md focus:border border-teal-500 focus:outline-none">
+        </div>
+        <div class="w-9/12 mt-6">
+            <label for="firstname" class="block text-white text-sm my-2 text-left">Firstname</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter your Firstname" class="w-full rounded p-2 bg-purpleShade text-lightGray drop-shadow-md focus:border border-teal-500 focus:outline-none">
+        </div>
+        <div class="w-9/12 mt-6">
+            <label for="email" class="block text-white text-sm my-2 text-left">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" class="w-full rounded p-2 bg-purpleShade text-lightGray drop-shadow-md focus:border border-teal-500 focus:outline-none">
+        </div>
+        <div class="w-9/12 mt-6">
+            <label for="phone" class="block text-white text-sm my-2 text-left">Phone Number</label>
+            <input type="text" id="phone" name="phone"  placeholder="Enter your Phone Number" class="w-full rounded p-2 bg-purpleShade text-lightGray drop-shadow-md focus:border border-teal-500 focus:outline-none">
+        </div>
+        <div class="w-9/12 flex my-2 mt-6">
+            <input type="checkbox" name="check" class=" rounded p-4 w-5 mr-3 bg-purpleShade"> 
+            <p class="text-white"> By creating an account means you agree to 
+                <a href="#" class="text-lightBlue">Terms and Conditions</a>, and our <a href="#" class="text-lightBlue">Privacy Policy</a>
+            </p>
+        </div>
+
+        <button type="submit" class="w-9/12 mt-6 rounded p-2 bg-lightBlue text-white hover:bg-lighterBlue">Sign Up</button>
+        <p class="text-white">Existing user ? <a href="login.html" class="text-lightBlue">Log in</a></p> 
+  </form>
+    </div>
+  </section>
+  <script src="/js/signup.js"></script>
+</body>
+</html>
