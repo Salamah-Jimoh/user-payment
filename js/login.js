@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     loginForm.addEventListener('submit', function (event) {
         event.preventDefault(); // Prevent form default submission
 
-        // Get the email the user entered
+        // Get the email  and matric the user entered
         const emailInput = document.getElementById('email').value;
         const matricInput = document.getElementById('matric').value;
 
